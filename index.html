@@ -12,15 +12,15 @@
       
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.6">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.4">
     
     
       
-        <title>HITSZ-IDSLAB</title>
+        <title>IDSLAB</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.35e1ed30.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.bd3936ea.min.css">
       
       
 
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cornerdrive" class="md-skip">
+        <a href="#first-principles-based-3d-virtual-simulation-testing-for-discovering-safety-of-the-intended-functionality-sotif-corner-cases-of-autonomous-driving" class="md-skip">
           Skip to content
         </a>
       
@@ -77,7 +77,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="HITSZ-IDSLAB" class="md-header__button md-logo" aria-label="HITSZ-IDSLAB" data-md-component="logo">
+    <a href="." title="IDSLAB" class="md-header__button md-logo" aria-label="IDSLAB" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -91,13 +91,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            HITSZ-IDSLAB
+            IDSLAB
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CornerDrive
+              First-principles Based 3D Virtual Simulation Testing for Discovering Safety of The Intended Functionality (SOTIF) Corner Cases of Autonomous Driving
             
           </span>
         </div>
@@ -171,13 +171,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="HITSZ-IDSLAB" class="md-nav__button md-logo" aria-label="HITSZ-IDSLAB" data-md-component="logo">
+    <a href="." title="IDSLAB" class="md-nav__button md-logo" aria-label="IDSLAB" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    HITSZ-IDSLAB
+    IDSLAB
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -201,7 +201,7 @@
           
   
   <span class="md-ellipsis">
-    CornerDrive
+    First-principles Based 3D Virtual Simulation Testing for Discovering Safety of The Intended Functionality (SOTIF) Corner Cases of Autonomous Driving
   </span>
   
 
@@ -212,7 +212,7 @@
         
   
   <span class="md-ellipsis">
-    CornerDrive
+    First-principles Based 3D Virtual Simulation Testing for Discovering Safety of The Intended Functionality (SOTIF) Corner Cases of Autonomous Driving
   </span>
   
 
@@ -234,8 +234,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    Overview
+  <a href="#abstract" class="md-nav__link">
+    Abstract
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contribution" class="md-nav__link">
+    Contribution
   </a>
   
 </li>
@@ -257,13 +264,6 @@
         <li class="md-nav__item">
   <a href="#result" class="md-nav__link">
     Result
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cite" class="md-nav__link">
-    Cite
   </a>
   
 </li>
@@ -291,24 +291,42 @@
                   
 
 
-<h1 id="cornerdrive">CornerDrive</h1>
-<p>ConerDrive is a factor-driven generation framework for testing autonomous driving systems end-to-end, which automatically generates safety-critical driving scenarios in which an autonomous driving system misbehaves.</p>
-<h2 id="overview">Overview</h2>
-<p><img alt="overview" src="img/sensor_simulation.png" /></p>
-<p><strong>Contribution</strong></p>
+<h1 id="first-principles-based-3d-virtual-simulation-testing-for-discovering-safety-of-the-intended-functionality-sotif-corner-cases-of-autonomous-driving">First-principles Based 3D Virtual Simulation Testing for Discovering Safety of The Intended Functionality (SOTIF) Corner Cases of Autonomous Driving</h1>
+<h2 id="abstract"><strong>Abstract</strong></h2>
+<p>3D virtual simulation, which generates diversified test scenarios and tests full-stack of Autonomous Driving Systems(ADS) modules dynamically as a whole, is a promising approach for Safety of The Intended Functionality (SOTIF) testing of ADS. However, as different configurations of a test scenario will affect the sensor perceptions and interaction with the environment, e.g. light pulses emitted by the LiDAR sensor will undergo back-scattering and attenuation, which is usually overlooked by existing works, leading to false positive or wrong results. Moreover, the input space of an ADS is extremely large, with infinite number of possible initial scenarios and mutations, along both temporal and spatial domains.</p>
+<p>This paper proposed a first-principles based sensor modeling and environment interaction scheme, and integrated it into CARLA simulator. With this scheme, a long-overlooked category of adverse weather related corner cases are discovered, along with their root causes. Moreover, a meta-heuristic algorithm was designed based on several empirical insights, which guide both seed scenarios and mutations, significantly reducing the search dimensions of scenarios and enhancing the efficiency of corner case identification. Experimental results showed that under identical simulation setups, our algorithm discovered about four times as many corner cases as compared to state-of-the-art work.</p>
+<h2 id="contribution"><strong>Contribution</strong></h2>
+<p>To address these challenges, This paper makes the following contributions:</p>
 <ul>
-<li>We develop a platform based on CARLA that enables SOTIF testing of ADSes under adverse weather conditions. This platform can realistically simulate the impact of fog on LiDAR sensors and cameras, facilitating dynamic interaction between sensors and the environment.</li>
-<li>We design a time synchronization mechanism to ensure synchronization between ADSes and the simulator, ensuring the accuracy of test results. Importantly, our time synchronization mechanism operates transparently for ADSes.</li>
-<li>We conduct SOTIF tests on several representative ADSes from the CARLA Leaderboard under adverse weather conditions. Experimental results show that many issues undetectable in clear weather can be identified in adverse weather.</li>
-<li>We propose a safety-critical scenario generation and generalization algorithm that optimizes ordinary scenarios into accident scenarios (i.e., corner cases) and generalizes discovered corner cases to find more corner cases. Using this algorithm, we discover a series of corner cases in Baidu Apollo.</li>
+<li>A first-principles based sensor modeling and interaction with the environment is proposed, which is further integrated into CARLA simulator. In our simulation, the long-overlooked safety issue in autonomous driving related to adverse weather is exposed.</li>
+<li>Different with existing fuzzing based methods, a meta-heuristic algorithm is designed based on several empirical insights. These insights guide both seed scenarios and mutations, significantly reducing the search dimensions of scenarios and enhancing the efficiency of corner case identification. Experimental results demonstrate that, under identical simulation environments and configurations, our algorithm discovers about four times as many corner cases in 100 simulation tests compared to the current state-of-the-art work.</li>
+<li>An eBPF-based synchronization mechanism is designed to bridge ADS and the simulator. This addresses the discrepancies in clock frequencies between the simulator and autonomous driving systems, significantly mitigating issues of false positives and negatives arising from asynchronous simulations in the domain.</li>
 </ul>
-<h2 id="demo">Demo</h2>
-<iframe width="300" height="215" src="https://www.youtube.com/embed/RgvlHX0yDjQ?si=ILRB9r3QbAWGSYr_" title="Corner Case 15 - The vehicle comes to an abnormal stop due to recognition errors" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="300" height="215" src="https://www.youtube.com/embed/tuGvE-ghHRA?si=GOqTQBLdEdnuuzSU" title="Corner Case 16 - The vehicle mistakenly identifies a wall as a vehicle, leading to a stuck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="300" height="215" src="https://www.youtube.com/embed/whuTCraadTI?si=17lF91a-Qb2KIK2f" title="Corner Case 17 - The vehicle comes to a stuck at the intersection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h2 id="source-code-installation-run">Source Code Installation &amp; Run</h2>
-<h2 id="result">Result</h2>
+<h2 id="demo"><strong>Demo</strong></h2>
+<table>
+<thead>
+<tr>
+<th><div style="width: 350px; font-size: 22px; text-align: center;">Video</div></th>
+<th><div style="font-size: 22px; text-align: center;">Description</div></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><iframe width="350" height="216.3" src="https://www.youtube.com/embed/RgvlHX0yDjQ?si=ILRB9r3QbAWGSYr_" title="Corner Case 15 - The vehicle comes to an abnormal stop due to recognition errors" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+<td><span style="font-size: 20px;">When the main vehicle is driving on the road, it mistakenly identifies the water accumulation on the ground ahead as a vehicle, resulting in an abnormal stop.</span></td>
+</tr>
+<tr>
+<td><iframe width="350" height="216.3" src="https://www.youtube.com/embed/tuGvE-ghHRA?si=GOqTQBLdEdnuuzSU" title="Corner Case 16 - The vehicle mistakenly identifies a wall as a vehicle, leading to a stuck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+<td><span style="font-size: 20px;">When the vehicle approaches an intersection, it mistakenly identifies the wall on the opposite side as a vehicle, mistakenly believing there is a car in front of it, leading to a stuck.</td>
+</tr>
+<tr>
+<td><iframe width="350" height="216.3" src="https://www.youtube.com/embed/whuTCraadTI?si=17lF91a-Qb2KIK2f" title="Corner Case 17 - The vehicle comes to a stuck at the intersection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+<td><span style="font-size: 20px;">The ego vehicle follows its planned route, and there is a slow-moving vehicle blocking its path up ahead. To continue, the ego vehicle decides to change lanes to the right and overtake the vehicle ahead from the right lane. After a successful overtaking maneuver, the wgo vehicle changes lanes back to the left, returning to its original lane. However, during the process of returning to the original lane, the ego vehicle comes to a stuck.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="source-code-installation-run"><strong>Source Code Installation &amp; Run</strong></h2>
+<h2 id="result"><strong>Result</strong></h2>
 <table>
 <thead>
 <tr>
@@ -432,7 +450,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="cite">Cite</h2>
 
 
 
@@ -474,7 +491,7 @@
     <script id="__config" type="application/json">{"base": ".", "features": ["toc.integrate"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.aecac24b.min.js"></script>
+      <script src="assets/javascripts/bundle.94c44541.min.js"></script>
       
     
   </body>
